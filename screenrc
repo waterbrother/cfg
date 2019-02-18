@@ -1,0 +1,2 @@
+escape ^Xx
+hardstatus alwayslastline '%{= kC}[%{W} %H %{C}][%{W} %n %{C}][%= %{W}%t %= %{C}][%{W} %Y/%m/%d %c %{C}]'
