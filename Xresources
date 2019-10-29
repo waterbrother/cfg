@@ -1,0 +1,41 @@
+URxvt*foreground: #ffffff
+!URxvt*background: #272727
+URxvt*background: #00001f
+
+!black
+URxvt*color0: #000000
+URxvt*color8: #555555
+
+!red
+URxvt*color1: #EFABAB
+URxvt*color9: #F0D1D1
+
+!green
+URxvt*color2: #D7F7BC
+URxvt*color10: #C3FAA5
+
+!yellow 
+!actually oranges
+URxvt*color3: #FFCA7A
+URxvt*color11: #FCDDAE
+
+!blue
+URxvt*color4: #9ACDEF
+URxvt*color12: #C0DDEF
+
+!magenta
+!actually purples
+URxvt*color5: #E2AEFC
+URxvt*color13: #F0D1FF
+
+!cyan
+URxvt*color6: #96EFEC
+URxvt*color14: #C9F2F1
+
+!white
+URxvt*color7: #E1E1E1
+URxvt*color15: #ffffff
+
+URxvt.letterSpace: -5
+!URxvt.font: xft:helvetica:size=14
+URxvt.font: xft:-*-lucidatypewriter-*-*-normal-*-14-140-*-*-*-*-iso8859-*:size=14
