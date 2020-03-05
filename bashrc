@@ -15,4 +15,4 @@ alias ls='ls --color=auto'
 alias pw='/usr/bin/vim ~/cfg/pw'
 
 # execute
-/home/medwyn/bin/botl/botl | fmt
+#/home/medwyn/bin/botl/botl | fmt
