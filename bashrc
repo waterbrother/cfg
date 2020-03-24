@@ -7,12 +7,12 @@
 PS1='[\u@\h \W]\$ '
 
 # ENV
-export BROWSER="/usr/bin/surf"
-export PATH="$PATH:/home/medwyn/bin"
+export BROWSER="/usr/bin/chromium"
+export PATH="$PATH:/home/$USER/bin"
 
 # ALIAS
 alias ls='ls --color=auto'
 alias pw='/usr/bin/vim ~/cfg/pw'
 
 # execute
-#/home/medwyn/bin/botl/botl | fmt
+#/home/$USER/bin/botl/botl | fmt
