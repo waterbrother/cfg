@@ -117,8 +117,8 @@ set laststatus=2
 
 " now set it up to change based on mode 
 if version>=700
-	au InsertEnter * hi StatusLine term=reverse ctermfg=2 ctermbg=8 
-	au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2
+	au InsertEnter * hi StatusLine term=reverse ctermfg=white ctermbg=darkgrey
+	au InsertLeave * hi StatusLine term=reverse ctermfg=darkgrey ctermbg=white
 endif
 
 " disable annoying backup file creation
