@@ -120,3 +120,6 @@ if version>=700
 	au InsertEnter * hi StatusLine term=reverse ctermfg=2 ctermbg=8 
 	au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2
 endif
+
+" disable annoying backup file creation
+set nobackup nowritebackup

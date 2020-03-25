@@ -1,17 +1,30 @@
-# The following lines were added by compinstall
+# Correctly display UTF-8 with combining characters.
+if [[ "$(locale LC_CTYPE)" == "UTF-8" ]]; then
+    setopt COMBINING_CHARS
+fi
 
-zstyle ':completion:*' completer _expand _complete _ignored
-zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
-zstyle :compinstall filename '/home/h01y_4v4t4r/.zshrc'
+# Disable the log builtin, so we don't conflict with /usr/bin/log
+disable log
 
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
+# Beep on error
+#setopt BEEP
+
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
-HISTSIZE=1000
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+HISTSIZE=2000
 SAVEHIST=1000
-bindkey -v
+
 # End of lines configured by zsh-newuser-install
 autoload -U colors && colors
-PROMPT="%n@%m>"
+
+# Default prompt
+#PROMPT="%n@%m>"
+PS1="%n@%m %1~ %# "
+
+# Default key bindings
+[[ -n ${key[Delete]} ]] && bindkey "${key[Delete]}" delete-char
+[[ -n ${key[Home]} ]] && bindkey "${key[Home]}" beginning-of-line
+[[ -n ${key[End]} ]] && bindkey "${key[End]}" end-of-line
+[[ -n ${key[Up]} ]] && bindkey "${key[Up]}" up-line-or-search
+[[ -n ${key[Down]} ]] && bindkey "${key[Down]}" down-line-or-search
+bindkey -v
