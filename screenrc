@@ -1,3 +1,4 @@
 escape ^Xx
 #hardstatus alwayslastline '%{= kC}|%{W} %n %{C}|%{W} %Y/%m/%d %c %{C}|%{W} %H %{C}|  %{W}%t %{C}'
-hardstatus alwayslastline '%{= kC}|%{W} %n %{C}|%{W} %Y/%m/%d %c %{C}|%{W} %H %{C}|  %{W}%h %{C}'
+#hardstatus alwayslastline '%{= kC}|%{W} %n %{C}|%{W} %Y/%m/%d %c %{C}|%{W} %H %{C}|  %{W}%h %{C}'
+hardstatus alwayslastline '%{w}|%{k} %n %{w}|%{k} %Y/%m/%d %c %{w}|%{k} %H %{w}|%{k} %t %{w}|'

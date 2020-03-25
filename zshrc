@@ -77,6 +77,7 @@ alias rm="rm -i"
 
 # Environment
 source $HOME/.config/environment/*
+export EDITOR=vim
 
 # Options
 setopt ALWAYS_TO_END
