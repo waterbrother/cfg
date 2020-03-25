@@ -28,3 +28,7 @@ PS1="%n@%m %1~ %# "
 [[ -n ${key[Up]} ]] && bindkey "${key[Up]}" up-line-or-search
 [[ -n ${key[Down]} ]] && bindkey "${key[Down]}" down-line-or-search
 bindkey -v
+
+# Aliases
+alias ls="ls -G"
+alias rm="rm -i"
