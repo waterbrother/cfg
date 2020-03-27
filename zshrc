@@ -76,11 +76,20 @@ alias ls="ls -G"
 alias rm="rm -i"
 
 # Environment
-source $HOME/.config/environment/*
-export EDITOR=vim
+[[ -d $HOME/.config/environment ]] && source $HOME/.config/environment/*
+export EDITOR="vim"
 
 # Options
 setopt ALWAYS_TO_END
 setopt AUTO_MENU
 setopt COMPLETE_IN_WORD
 
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
+zstyle :compinstall filename '/home/h01y_4v4t4r/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
