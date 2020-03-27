@@ -78,7 +78,7 @@ alias rm="rm -i"
 
 # Environment
 [[ -f $HOME/.config/environment/export.sh ]] && source $HOME/.config/environment/export.sh
-[[ -f $HOME/.config/environment/export.sh ]] && source $HOME/.config/mercury/config.bash
+[[ -f $HOME/.config/mercury/config.bash ]] && source $HOME/.config/mercury/config.bash
 export EDITOR=vim
 
 # Options
