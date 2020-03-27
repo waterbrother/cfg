@@ -73,10 +73,12 @@ PS1="%n@%m %1~ %# "
 
 # Aliases
 alias ls="ls -G"
+alias ll="ls -la"
 alias rm="rm -i"
 
 # Environment
-source $HOME/.config/environment/*
+[[ -f $HOME/.config/environment/export.sh ]] && source $HOME/.config/environment/export.sh
+[[ -f $HOME/.config/environment/export.sh ]] && source $HOME/.config/mercury/config.bash
 export EDITOR=vim
 
 # Options
