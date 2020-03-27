@@ -1,0 +1,140 @@
+#[app] (fbrun)
+#  [Position]	(WINCENTER)	{0 0}
+#  [Layer]	{2}
+#  [Deco]        {NONE}
+#[end]
+#
+#[app] (urxvt)
+#  [Position]    (WINCENTER)    {0 0}
+#  #[Dimensions]                 {1780 950}
+#  [Maximized]  {yes}
+#  [Workspace]   {0}
+#  [Jump]        {yes}
+#  [Deco]        {NONE}
+#[end]
+#
+#[app] (thunar)
+#  [Workspace]   {2}
+#  [Jump]        {no}
+#[end]
+#
+#[app] (Navigator)
+#  [Workspace]   {1}
+#  [Jump]        {yes}
+#  [Maximized]   {yes}
+#  [Deco]	{NONE}
+#[end]
+#
+#[app] (surf)
+#  [Workspace]   {1}
+#  [Jump]        {yes}
+#  [Maximized]   {yes}
+#  [Deco]	{NONE}
+#[end]
+#
+#[app] (chromium)
+#  [Workspace]   {1}
+#  [Jump]        {no}
+#  [Maximized]   {yes}
+#  [Deco]	{NONE}
+#[end]
+#
+#[app] (Mail)
+#  [Workspace]   {1}
+#  [Head]        {2}
+#  [Jump]        {yes}
+#  [Maximized]   {yes}
+#  [Deco]	{NONE}
+#[end]
+#
+#[app] (liferea)
+#  [Workspace]   {1}
+#  [Head]        {2}
+#  [Jump]        {yes}
+#  [Maximized]   {yes}
+#  [Deco]	{NONE}
+#[end]
+#
+#[app] (alsamixer)
+#  [Deco]	{NONE}
+#  [Position]    (BottomLeft)      {50 40}
+#  [Dimensions]                 {1830 350}
+#  [Workspace]	{2}
+#  [Jump]	{yes}
+#[end]
+#
+#[app] (music) 
+#  [Position]    (TopLeft)      {50 40}
+#  [Dimensions]                 {1830 550}
+#  [Workspace]   {2}
+#  [Jump]        {yes}
+#  [Deco]        {NONE}
+#[end]
+#
+#[app] (xcalc)
+#  [Deco]	{NONE}
+#  [Position]	(BottomRight)	{40 40}
+#  [Sticky]	{yes}
+#  [Layer]	{6}
+#[end]
+#
+#[app] (zsnes)
+#  [Deco]	{NONE}
+#  [Position]	(Center) {0 0}
+#  [Workspace]	{2}
+#  [Jump]	{yes}
+#[end]
+#
+#[app] (libreoffice)
+#  [Deco]	{NONE}
+#  [Workspace]	{2}
+#  [Jump]	{yes}
+#[end]
+#
+#[app] (Name=Pidgin) (Role=buddy_list)
+#  [Deco]	{NONE}
+#  [Workspace] {1}
+#  [Jump]	{yes}
+#  [Position]  (TopRight)  {40 40}
+#  [Dimensions]            {250 980}
+#[end]
+#
+#[app] (Name=Pidgin) (Role=conversation)
+#  [Deco]	{NONE}
+#  [Workspace] {1}
+#  [Position]  (TopLeft)  {40 40}
+#  [Dimensions]           {1550 450}
+#[end]
+#
+#[app] (chat)
+#  [Deco]	{NONE}
+#  [Workspace] {1}
+#  [Jump]        {yes}
+#  [Position]  (BottomLeft)  {40 37}
+#  [Dimensions]           {1552 500}
+#[end]
+#
+#[app] (dwb)
+#  [Deco]  {NONE}
+#  [Workspace] {1}
+#  [Jump]        {yes}
+#  [Maximized]   {yes}
+#[end]
+#
+#[app] (MPlayer)
+#  [Deco]  {NONE}
+#  [Workspace] {2}
+#  [Jump]        {yes}
+#  [Maximized]   {yes}
+#[end]
+#
+#[app] (gl)
+#  [Position]    (WINCENTER)    {0 0}
+#  [Maximized]   {yes}
+#[end]
+#
+#[app] (claws-mail)
+#  [Workspace] {1}
+#  [Maximized]   {yes}
+#[end]
+#
