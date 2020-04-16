@@ -1,17 +1,21 @@
+#[app] (*)
+#  [Position] {5 5}
+#[end]
 #[app] (fbrun)
 #  [Position]	(WINCENTER)	{0 0}
 #  [Layer]	{2}
 #  [Deco]        {NONE}
 #[end]
 #
-#[app] (urxvt)
+[app] (urxvt)
 #  [Position]    (WINCENTER)    {0 0}
-#  #[Dimensions]                 {1780 950}
+  [Position]    (TopLeft)    {3% 5%}
+  #[Dimensions]                 {1780 950}
 #  [Maximized]  {yes}
 #  [Workspace]   {0}
 #  [Jump]        {yes}
 #  [Deco]        {NONE}
-#[end]
+[end]
 #
 #[app] (thunar)
 #  [Workspace]   {2}
@@ -71,12 +75,12 @@
 #  [Deco]        {NONE}
 #[end]
 #
-#[app] (xcalc)
-#  [Deco]	{NONE}
-#  [Position]	(BottomRight)	{40 40}
-#  [Sticky]	{yes}
-#  [Layer]	{6}
-#[end]
+[app] (xcalc)
+  [Deco]	{NONE}
+  [Position]	(BottomRight)	{40 40}
+  [Sticky]	{yes}
+  [Layer]	{6}
+[end]
 #
 #[app] (zsnes)
 #  [Deco]	{NONE}
