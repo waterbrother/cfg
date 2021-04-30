@@ -72,7 +72,7 @@ bindkey '^R' history-incremental-search-backward
 PS1="%n@%m %1~ %# "
 
 # Aliases
-alias ls="ls -G"
+alias ls="ls -G --color"
 alias ll="ls -la"
 alias rm="rm -i"
 

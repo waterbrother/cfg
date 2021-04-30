@@ -10,7 +10,7 @@
 [app] (urxvt)
 #  [Position]    (WINCENTER)    {0 0}
   [Position]    (TopLeft)    {3% 5%}
-  #[Dimensions]                 {1780 950}
+  [Dimensions]                 {1340 990}
 #  [Maximized]  {yes}
 #  [Workspace]   {0}
 #  [Jump]        {yes}
